@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="com.testNg.testNgAnnotations">
+				<methods>
+					<!-- <execlude>
+						<include name="Testcase3"></include>
+					</execlude> -->
+					<include name="Testcase3"></include>
+					<!-- <include name="Testcase3"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
